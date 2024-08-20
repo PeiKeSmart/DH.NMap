@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyTitle>地图接口平台</AssemblyTitle>
+    <Description>企业内部地图接口平台，为各应用系统提供统一化的地图接口</Description>
+    <Company>新生命开发团队</Company>
+    <Copyright>©2002-2024 新生命开发团队</Copyright>
+    <VersionPrefix>1.1</VersionPrefix>
+    <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
+    <Version>$(VersionPrefix).$(VersionSuffix)</Version>
+    <FileVersion>$(Version)</FileVersion>
+    <AssemblyVersion>$(VersionPrefix).*</AssemblyVersion>
+    <Deterministic>false</Deterministic>
+    <OutputPath>..\Bin\MapApi</OutputPath>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Areas\Location\Controllers\GeoController.cs" />
+    <Compile Remove="Locations\地理数据.Biz.cs" />
+    <Compile Remove="Locations\地理数据.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DH.NCode" Version="3.7.2024.820" />
+    <PackageReference Include="DH.NCube.Core" Version="3.7.2024.820-beta0650" />
+    <PackageReference Include="DH.NStardust.Extensions" Version="3.7.2024.820" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DH.NMap\DH.NMap.csproj" />
+  </ItemGroup>
+
+</Project>
