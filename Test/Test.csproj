@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <OutputPath>..\Bin\Test</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -10,8 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DH.NCode" Version="3.91.2024.1112-beta0747" />
-    <PackageReference Include="DH.NStardust.Extensions" Version="3.91.2024.1112-beta0839" />
+    <PackageReference Include="DH.NCode" Version="4.0.2024.1113-beta0750" />
+    <PackageReference Include="DH.NStardust.Extensions" Version="4.0.2024.1114-beta0438" />
     <PackageReference Include="xunit.assert" Version="2.9.2" />
   </ItemGroup>
 
