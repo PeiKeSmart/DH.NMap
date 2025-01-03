@@ -4,8 +4,8 @@
     <TargetFramework>net9.0</TargetFramework>
     <AssemblyTitle>地图接口平台</AssemblyTitle>
     <Description>企业内部地图接口平台，为各应用系统提供统一化的地图接口</Description>
-    <Company>新生命开发团队</Company>
-    <Copyright>©2002-2024 新生命开发团队</Copyright>
+    <Company>湖北登灏科技有限公司</Company>
+    <Copyright>©2020-2025 湖北登灏科技有限公司</Copyright>
     <VersionPrefix>1.1</VersionPrefix>
     <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
     <Version>$(VersionPrefix).$(VersionSuffix)</Version>
