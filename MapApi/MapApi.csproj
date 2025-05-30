@@ -24,9 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DH.NCode" Version="4.12.2025.506" />
-    <PackageReference Include="DH.NCube.Core" Version="4.11.2025.506-beta1241" />
-    <PackageReference Include="DH.NStardust.Extensions" Version="4.12.2025.514-beta0908" />
+    <PackageReference Include="DH.NCode" Version="4.12.2025.529-beta1054" />
+    <PackageReference Include="DH.NCube.Core" Version="4.11.2025.530-beta0349" />
+    <PackageReference Include="DH.NStardust.Extensions" Version="4.12.2025.530-beta0627" />
   </ItemGroup>
 
   <ItemGroup>
