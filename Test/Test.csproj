@@ -10,8 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DH.NCode" Version="4.14.2025.818-beta0252" />
-    <PackageReference Include="DH.NStardust.Extensions" Version="4.14.2025.818-beta0728" />
+    <PackageReference Include="DH.NCode" Version="4.14.2025.926-beta1125" />
+    <PackageReference Include="DH.NStardust.Extensions" Version="4.14.2025.926-beta1314" />
     <PackageReference Include="xunit.assert" Version="2.9.3" />
   </ItemGroup>
 
