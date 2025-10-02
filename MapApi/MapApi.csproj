@@ -6,7 +6,7 @@
     <Description>企业内部地图接口平台，为各应用系统提供统一化的地图接口</Description>
     <Company>湖北登灏科技有限公司</Company>
     <Copyright>©2020-2025 湖北登灏科技有限公司</Copyright>
-    <VersionPrefix>1.1</VersionPrefix>
+    <VersionPrefix>4.15</VersionPrefix>
     <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
     <Version>$(VersionPrefix).$(VersionSuffix)</Version>
     <FileVersion>$(Version)</FileVersion>
@@ -24,9 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DH.NCode" Version="4.14.2025.926-beta1125" />
+    <PackageReference Include="DH.NCode" Version="4.14.2025.1002-beta0252" />
     <PackageReference Include="DH.NCube.Core" Version="4.11.2025.826-beta0719" />
-    <PackageReference Include="DH.NStardust.Extensions" Version="4.14.2025.926-beta1314" />
+    <PackageReference Include="DH.NStardust.Extensions" Version="4.15.2025.1002-beta0334" />
   </ItemGroup>
 
   <ItemGroup>
