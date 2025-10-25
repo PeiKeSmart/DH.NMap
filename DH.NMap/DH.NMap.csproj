@@ -43,7 +43,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DH.NStardust" Version="4.15.2025.1002-beta0334" />
+    <PackageReference Include="DH.NStardust" Version="4.15.2025.1024-beta1328" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
