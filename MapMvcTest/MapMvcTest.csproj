@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyTitle>高德地图代理测试</AssemblyTitle>
+    <Description>测试通过代理方式渲染高德地图</Description>
+    <Company>湖北登灏科技有限公司</Company>
+    <OutputPath>..\Bin\MapMvcTest</OutputPath>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DH.NMap\DH.NMap.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DH.NCode" Version="4.17.2026.130-beta1111" />
+    <PackageReference Include="DH.NCube.Core" Version="4.11.2025.826-beta0719" />
+  </ItemGroup>
+
+</Project>
